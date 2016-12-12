@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Project-Ranking
+  host: Project-Ranking
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Retrieve and Rank-sr
